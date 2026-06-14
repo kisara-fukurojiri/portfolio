@@ -1,231 +1,266 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>灯彩堂</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <header class="header-top">
-        <h1 class="header-logo">
-            <a href="index.html">
-                <img src="image/logo/logo-white2.png" alt="灯彩堂">
-            </a>
-        </h1>
-           <button class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-           </button>
-            <nav class="header-nav">
-                <ul>
-                    <li class="nav-item"><a href="index.html">TOP</a></li>
-                    <li class="nav-item"><a href="about.html">ABOUT</a></li>
-                    <li class="nav-item"><a href="">MENU</a></li>
-                    <li class="nav-item"><a href="">INFO</a></li>
-                    <li class="nav-item"><a href="">CONTACT</a></li>
-                </ul>
-            </nav>
+      <h1 class="header-logo">
+        <a href="index.html">
+          <img src="image/logo/logo-white2.png" alt="灯彩堂" />
+        </a>
+      </h1>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header-nav">
+        <ul>
+          <li class="nav-item"><a href="index.html">TOP</a></li>
+          <li class="nav-item"><a href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a href="menu.html">MENU</a></li>
+          <li class="nav-item"><a href="">INFO</a></li>
+          <li class="nav-item"><a href="">CONTACT</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <!-- FVここから↓↓ -->
-            <section id="fv">
-                <div class="fv-images">
-                    <img src="image/top-image.jpg" alt="店外の様子">
-                    <img src="image/top-image2.jpg" alt="和菓子とお茶">
-                    <img src="image/top-image3.jpg" alt="店内の様子">
-                </div>
-                <div class="fv-content">
-                    <h1>
-                        <a href="index.html">
-                            <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ">
-                        </a>
-                    </h1>
-                </div>
-                <div class="fv-scroll">SCROLL</div>
-            </section>
-        <!-- FVここまで↑↑ -->
-
-        <!-- ABOUTここから↓↓ -->    
-            <section id="about">
-                <div class="container">
-                    <div class="section-title">
-                        <h2>ABOUT</h2>
-                    </div>
-                    <div class="top-about-content">
-                        <div class="top-about-left">
-                            <p class="top-about-text fade-up">
-                                 木の温もりとやわらかな光の中に包まれた空間で<br>
-                                 ゆったりと過ごせるひとときを提供します。<br>
-                                 忙しい日常を忘れ、心ほどける時間を。
-                            </p>
-                        </div>
-                        <div class="top-about-image fade-up">
-                            <img src="image/about-image.jpg" alt="窓際席">
-                        </div>
-                    </div>
-                        <div class="top-about-link fade-up">
-                            <a href="about.html">コンセプトを見る →</a>
-                        </div>
-                </div>
-            </section>        
-        <!-- ABOUTここまで↑↑ -->
-
-        <!-- MENUここから↓↓ -->
-            <section id="menu">
-                <div class="container">
-                    <div class="section-title">
-                        <h2>MENU</h2>
-                    </div>
-                    <p class="menu-text fade-up">
-                        豊かなお茶と<br>
-                        季節の甘味をご用意しております。
-                    </p>
-
-                    <div class="menu-list">
-                        <article class="menu-card fade-up delay1">
-                            <img class="menu-img matcha" src="image/menu-matcha-latte.jpg" alt="抹茶ラテ">
-                            <h3>抹茶ラテ</h3>
-                            <p class="menu-price">￥680</p>
-                            <p class="menu-description">香り高い抹茶と<br>まろやかなミルクを合わせました。</p>
-                        </article>
-
-                        <article class="menu-card fade-up delay2">
-                            <img class="menu-img hojicha" src="image/menu-hojicha-latte.jpg" alt="ほうじ茶ラテ">
-                            <h3>ほうじ茶ラテ</h3>
-                            <p class="menu-price">￥650</p>
-                            <p class="menu-description">香ばしいほうじ茶の香りが広がる<br>心ほどける一杯です。</p>
-                        </article>
-                        
-                        <article class="menu-card fade-up delay3">
-                            <img  class="menu-img parfait" src="image/menu-seasonal-parfait.jpg" alt="季節のパフェ">
-                            <h3>季節のパフェ</h3>
-                            <p class="menu-price">￥1,100</p>
-                            <p class="menu-description">季節の素材を使用した<br>彩り豊かな和のパフェです。</p>
-                        </article>
-                    </div>
-                    <div class="menu-link fade-up">
-                        <a href="menu.html">メニュー一覧を見る →</a>
-                    </div>
-                </div>
-            </section>
-        <!-- MENUここまで↑↑ -->
-
-        <!-- INFOここから↓↓ -->
-            <section id="info">
-                 <div class="container">
-                    <div class="section-title">
-                        <h2>INFO</h2>
-                    </div>
-                    <p class="info-text fade-up">
-                        静かな時間が流れる、<br>
-                        心安らぐ空間をご用意しております。
-                    </p>
-                    <div class="info-content">
-                    <div class="info-map fade-up">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13352.243129843875!2d130.54007785541995!3d33.2125027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541a92bfa1e0ba5%3A0x25643c8d06e8be0e!2z5YWr5aWz5biC5b255omA!5e0!3m2!1sja!2sjp!4v1781059048634!5m2!1sja!2sjp"
-                            style="border:0;"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>                      
-                    <div class="info-right">
-                        <div class="info-image fade-up">
-                            <img src="image/info-interior-main.jpg" alt="店内の様子">
-                        </div>
-
-                        <div class="info-card fade-up">
-                            <div class="info-item">
-                                <img src="image/Clock.png" alt="営業時間">
-                                <div class="info-text-box">
-                                    <h3 class="info-title">営業時間</h3>
-                                    <p class="info-detail">10:00～18:00(L.O.17:30)</p>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <img src="image/Calendar.png" alt="定休日">
-                                <div class="info-text-box">
-                                    <h3 class="info-title">定休日</h3>
-                                    <p class="info-detail">水曜日</p>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <img src="image/Map pin.png" alt="地図">
-                                <div class="info-text-box">
-                                    <h3 class="info-title">住所</h3>
-                                    <p class="info-detail">〒834-0004 福岡県八女市本村123-4</p>
-                                </div>
-                            </div>
-                            <div class="info-item">
-                                <img src="image/Phone.png" alt="電話番号">
-                                <div class="info-text-box">  
-                                    <h3 class="info-title">電話番号</h3>
-                                    <p class="info-detail">0943-00-0000</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-
-                    <div class="info-link fade-up">
-                        <a href="info.html">店舗情報を見る →</a>
-                    </div>
-                </div>
-            </section>
-        <!-- INFOここまで↑↑ -->
-
-        <!-- CONTACTここから↓↓ -->
-           <section id="contact">
-             <div class="container">
-                <div class="section-title">
-                    <h2>CONTACT</h2>
-                </div>
-                <p class="contact-text">
-                    ご用命やご相談がございましたら、<br>
-                    どうぞお気軽にご連絡ください。
-                </p>
-
-                <form action="#" method="post">
-                    <div class="form-group">
-                        <label for="name">名前</label>
-                        <input type="text" id="name" name="name" placeholder="お名前を入力してください">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">メールアドレス</label>
-                        <input type="email" id="email" name="email" placeholder="example@example.com">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="message">お問い合わせ</label>
-                        <textarea name="message" id="message" placeholder="ご質問等をご入力ください"></textarea>
-                    </div>
-
-                    <button type="submit" class="contact-btn">送信</button>
-                </form>
-             </div>
-           </section>
-        <!-- CONTACTここまで↑↑ -->
-    </main>
-        <a href="#fv" class="page-top">
-            ↑
-            <span>TOP</span>
-        </a>
-    <footer>
-        
-        <div class="footer-logo">
-            <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ">
+      <!-- FVここから↓↓ -->
+      <section id="fv">
+        <div class="fv-images">
+          <img src="image/top-image.jpg" alt="店外の様子" />
+          <img src="image/top-image2.jpg" alt="和菓子とお茶" />
+          <img src="image/top-image3.jpg" alt="店内の様子" />
         </div>
-        <hr>
-        <p class="copyright">&copy;2026 灯彩堂</p>
+        <div class="fv-content">
+          <h1>
+            <a href="index.html">
+              <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ" />
+            </a>
+          </h1>
+        </div>
+        <div class="fv-scroll">SCROLL</div>
+      </section>
+      <!-- FVここまで↑↑ -->
+
+      <!-- ABOUTここから↓↓ -->
+      <section id="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>ABOUT</h2>
+          </div>
+          <div class="top-about-content">
+            <div class="top-about-left">
+              <p class="top-about-text fade-up">
+                木の温もりとやわらかな光の中に包まれた空間で<br />
+                ゆったりと過ごせるひとときを提供します。<br />
+                忙しい日常を忘れ、心ほどける時間を。
+              </p>
+            </div>
+            <div class="top-about-image fade-up">
+              <img src="image/about-image.jpg" alt="窓際席" />
+            </div>
+          </div>
+          <div class="top-about-link fade-up">
+            <a href="about.html">コンセプトを見る →</a>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUTここまで↑↑ -->
+
+      <!-- MENUここから↓↓ -->
+      <section id="menu">
+        <div class="container">
+          <div class="section-title">
+            <h2>MENU</h2>
+          </div>
+          <p class="menu-text fade-up">
+            豊かなお茶と<br />
+            季節の甘味をご用意しております。
+          </p>
+
+          <div class="menu-list">
+            <article class="menu-card fade-up delay1">
+              <img
+                class="menu-img matcha"
+                src="image/menu-matcha-latte.jpg"
+                alt="抹茶ラテ"
+              />
+              <h3>抹茶ラテ</h3>
+              <p class="menu-price">￥680</p>
+              <p class="menu-description">
+                香り高い抹茶と<br />まろやかなミルクを合わせました。
+              </p>
+            </article>
+
+            <article class="menu-card fade-up delay2">
+              <img
+                class="menu-img hojicha"
+                src="image/menu-hojicha-latte.jpg"
+                alt="ほうじ茶ラテ"
+              />
+              <h3>ほうじ茶ラテ</h3>
+              <p class="menu-price">￥650</p>
+              <p class="menu-description">
+                香ばしいほうじ茶の香りが広がる<br />心ほどける一杯です。
+              </p>
+            </article>
+
+            <article class="menu-card fade-up delay3">
+              <img
+                class="menu-img parfait"
+                src="image/menu-seasonal-parfait.jpg"
+                alt="季節のパフェ"
+              />
+              <h3>季節のパフェ</h3>
+              <p class="menu-price">￥1,100</p>
+              <p class="menu-description">
+                季節の素材を使用した<br />彩り豊かな和のパフェです。
+              </p>
+            </article>
+          </div>
+          <div class="menu-link fade-up">
+            <a href="menu.html">メニュー一覧を見る →</a>
+          </div>
+        </div>
+      </section>
+      <!-- MENUここまで↑↑ -->
+
+      <!-- INFOここから↓↓ -->
+      <section id="info">
+        <div class="container">
+          <div class="section-title">
+            <h2>INFO</h2>
+          </div>
+          <p class="info-text fade-up">
+            静かな時間が流れる、<br />
+            心安らぐ空間をご用意しております。
+          </p>
+          <div class="info-content">
+            <div class="info-map fade-up">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13352.243129843875!2d130.54007785541995!3d33.2125027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3541a92bfa1e0ba5%3A0x25643c8d06e8be0e!2z5YWr5aWz5biC5b255omA!5e0!3m2!1sja!2sjp!4v1781059048634!5m2!1sja!2sjp"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </div>
+            <div class="info-right">
+              <div class="info-image fade-up">
+                <img src="image/info-interior-main.jpg" alt="店内の様子" />
+              </div>
+
+              <div class="info-card fade-up">
+                <div class="info-item">
+                  <img src="image/Clock.png" alt="営業時間" />
+                  <div class="info-text-box">
+                    <h3 class="info-title">営業時間</h3>
+                    <p class="info-detail">10:00～18:00(L.O.17:30)</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <img src="image/Calendar.png" alt="定休日" />
+                  <div class="info-text-box">
+                    <h3 class="info-title">定休日</h3>
+                    <p class="info-detail">水曜日</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <img src="image/Map pin.png" alt="地図" />
+                  <div class="info-text-box">
+                    <h3 class="info-title">住所</h3>
+                    <p class="info-detail">〒834-0004 福岡県八女市本村123-4</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <img src="image/Phone.png" alt="電話番号" />
+                  <div class="info-text-box">
+                    <h3 class="info-title">電話番号</h3>
+                    <p class="info-detail">0943-00-0000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-link fade-up">
+            <a href="info.html">店舗情報を見る →</a>
+          </div>
+        </div>
+      </section>
+      <!-- INFOここまで↑↑ -->
+
+      <!-- CONTACTここから↓↓ -->
+      <section id="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>CONTACT</h2>
+          </div>
+          <p class="contact-text">
+            ご用命やご相談がございましたら、<br />
+            どうぞお気軽にご連絡ください。
+          </p>
+
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">名前</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="お名前を入力してください"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">メールアドレス</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@example.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">お問い合わせ</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="ご質問等をご入力ください"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">送信</button>
+          </form>
+        </div>
+      </section>
+      <!-- CONTACTここまで↑↑ -->
+    </main>
+    <a href="#fv" class="page-top">
+      ↑
+      <span>TOP</span>
+    </a>
+    <footer>
+      <div class="footer-logo">
+        <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ" />
+      </div>
+      <hr />
+      <p class="copyright">&copy;2026 灯彩堂</p>
     </footer>
-</body>
+  </body>
+  <script src="js/script.js" defer></script>
 </html>
