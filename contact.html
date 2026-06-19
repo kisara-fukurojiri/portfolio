@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>灯彩堂</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+  <body>
+    <header class="header-top">
+      <h1 class="header-logo">
+        <a href="index.html">
+          <img src="image/logo/logo-white2.png" alt="灯彩堂" />
+        </a>
+      </h1>
+      <button class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header-nav">
+        <ul>
+          <li class="nav-item"><a href="index.html">TOP</a></li>
+          <li class="nav-item"><a href="about.html">ABOUT</a></li>
+          <li class="nav-item"><a href="menu.html">MENU</a></li>
+          <li class="nav-item"><a href="info.html">INFO</a></li>
+          <li class="nav-item"><a href="contact.html" class="current">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- FVここから↓↓ -->
+      <section id="fv">
+        <div class="fv-images">
+          <img src="image/info-gallery-06.jpg" alt="店内の花" />
+        </div>
+        <div class="fv-content">
+          <h1>
+            <a href="index.html">
+              <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ" />
+            </a>
+          </h1>
+        </div>
+      </section>
+      <!-- FVここまで↑↑ -->
+
+      <!-- CONTACTここから↓↓ -->
+        <section id="contact">
+            <div class="container">
+                <div class="section-title">
+                <h2>CONTACT</h2>
+                </div>
+                <p class="contact-text">
+                ご予約や店舗に関するご質問など<br>
+                お気軽にお問い合わせください。
+                </p>
+                <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="お名前を入力してください"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@example.com"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="message">お問い合わせ</label>
+                    <textarea
+                    id="message"
+                    name="message"
+                    placeholder="お問い合わせ内容をご入力ください"
+                    ></textarea>
+                </div>
+                <button type="submit" class="contact-btn">
+                    送信
+                </button>
+                </form>
+            </div>
+        </section>      
+    <!-- CONTACTここまで↑↑ -->
+    <!-- CTAここから↓↓ -->
+      <section id="cta">
+        <div class="container">
+          <div class="cta-content">
+            <h2>ご来店を心よりお待ちしております。</h2>
+            <a href="info.html" class="cta-btn">店舗情報を見る →</a>
+          </div>
+        </div>
+      </section>
+    <!-- CTAここまで↑↑ -->
+    </main>
+    <a href="#fv" class="page-top">
+      ↑
+      <span>TOP</span>
+    </a>
+    <footer>
+      <div class="footer-logo">
+         <a href="index.html">
+          <img src="image/logo/logo-white2.png" alt="灯彩堂のロゴ" />
+        </a>
+      </div>
+      <hr />
+      <p class="copyright">&copy;2026 灯彩堂</p>
+    </footer>
+  </body>
+  <script src="js/script.js" defer></script>
+</html>
